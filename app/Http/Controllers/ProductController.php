@@ -31,5 +31,9 @@ class ProductController extends Controller
     	$cart = new Cart($currentCart);
     	
     	return view('shop.cart')->with(['items' => $cart->items, 'totalP' => $cart->totalP]);
-    }
+	}
+	
+	public function getCheckout(){
+		
+	}
 }

@@ -16,6 +16,8 @@
     <!-- font awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- Stripe 3 -->
+    <script src="https://js.stripe.com/v3/"></script>
   </head>
 
   <body>
